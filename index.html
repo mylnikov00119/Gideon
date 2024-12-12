@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Гидон - Мини Приложение</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+            background-color: #f0f0f0;
+        }
+        h1 {
+            color: #4CAF50;
+        }
+        .content {
+            margin-top: 20px;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <h1>Гидон на связи!</h1>
+    <div class="content">
+        <p>Я здесь, чтобы помочь тебе. Нажми кнопку ниже для того, чтобы начать.</p>
+        <button onclick="startInteraction()">Начать</button>
+    </div>
+
+    <script>
+        function startInteraction() {
+            alert("Гидон готов к действию! Что бы вы хотели узнать?");
+        }
+    </script>
+</body>
+</html>
